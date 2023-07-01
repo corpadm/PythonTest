@@ -7,3 +7,5 @@ print(f"source str[{testStr}]")
 print(f"lstrip:[{testStr.lstrip()}]")
 print(f"rstrip:[{testStr.rstrip()}]")
 print(f"strip:[{testStr.strip()}]")
+
+print(testStr.strip().capitalize())
